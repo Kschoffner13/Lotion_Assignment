@@ -68,7 +68,7 @@ function Layout() {
           {notes.map((note) => (
             <div
               className={params.id == note.id ? "appSBNotescurr" : "appSBNotes"}
-              onClick={() => nav("/" + note.id + "/edit")}
+              onClick={() => nav("/" + note.id)}
             >
               <div className="appSBnote">
                 <div className="SBtitle">
